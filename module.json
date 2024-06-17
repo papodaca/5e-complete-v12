@@ -1,7 +1,7 @@
 {
     "id": "5e-complete",
     "title": "5e Complete Compendium",
-    "version": "0.3.12",
+    "version": "0.3.13",
     "authors": [
         {
             "name": "btbias",
@@ -166,7 +166,7 @@
         }
     ],
     "url": "https://github.com/Hashfastr/5e-complete-v12",
-    "manifest": "https://github.com/Hashfastr/5e-complete-v12/releases/download/v0.3.12/module.json",
-    "download": "https://github.com/Hashfastr/5e-complete-v12/releases/download/v0.3.12/module.zip",
+    "manifest": "https://github.com/Hashfastr/5e-complete-v12/releases/download/v0.3.13/module.json",
+    "download": "https://github.com/Hashfastr/5e-complete-v12/releases/download/v0.3.13/module.zip",
     "description": "This module adds classes, subclasses, and other items missing from the D&D 5e SRD"
 }
