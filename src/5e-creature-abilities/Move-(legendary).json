@@ -1,0 +1,79 @@
+{
+  "name": "Move (legendary)",
+  "type": "feat",
+  "img": "icons/skills/movement/feet-winged-boots-brown.webp",
+  "data": {
+    "description": {
+      "value": "<p>The {creature} moves up to half its speed.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "legendary",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": 20,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "consume": {
+      "type": "attribute",
+      "target": "",
+      "amount": 1
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "4lCdaYwhvK1T68Lv": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.monsterfeatures.FzbCXXFlZVpcea4t"
+    }
+  },
+  "_id": "tnP2AQWs5rlZYZ6m"
+}

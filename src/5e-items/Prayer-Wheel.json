@@ -1,0 +1,36 @@
+{
+  "_id": "9kNGr3XG0lGgRQz2",
+  "name": "Prayer Wheel",
+  "type": "loot",
+  "img": "icons/tools/instruments/drum-brown-red.webp",
+  "data": {
+    "description": {
+      "value": "<p>An aid for the faithful, this cylinder can be turned on a spindle made of metal, wood, bone, stone, leather, or coarse cotton as the user follows mantra or cantation carved or inlaid upon it. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "quantity": 1,
+    "weight": 0.5,
+    "price": "1",
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "damage": {
+      "parts": []
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "4lCdaYwhvK1T68Lv": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.Nd4r4hocpfu6fYDP"
+    }
+  }
+}

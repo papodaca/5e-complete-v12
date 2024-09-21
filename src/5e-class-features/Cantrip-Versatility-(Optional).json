@@ -1,0 +1,97 @@
+{
+  "_id": "Aigjh6C04BmQaJTa",
+  "name": "Cantrip Versatility (Optional)",
+  "type": "feat",
+  "img": "icons/magic/air/wind-weather-snow-gusts.webp",
+  "data": {
+    "description": {
+      "value": "<p><em>This is an optional class feature. Consult with your DM before adding this to your character.</em></p>\n<p>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "",
+      "cost": 0,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Druid 4, 8, 12, 16, 19",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "LCw1mxC8S2Al3dWA": 3
+  },
+  "flags": {
+    "betterRolls5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickProperties": {
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFlavor": {
+        "value": true,
+        "altValue": true
+      }
+    },
+    "core": {
+      "sourceId": "Item.6HqfsPczgr7dOQZ1"
+    }
+  }
+}

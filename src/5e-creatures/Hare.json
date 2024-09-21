@@ -1,0 +1,565 @@
+{
+  "name": "Hare",
+  "type": "npc",
+  "img": "https://5etools-mirror-1.github.io/img/bestiary/IDRotF/Hare.jpg",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 1,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": 0
+        },
+        "mod": -5
+      },
+      "dex": {
+        "value": 17,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": 0
+        },
+        "mod": 3
+      },
+      "con": {
+        "value": 9,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": 0
+        },
+        "mod": -1
+      },
+      "int": {
+        "value": 2,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": 0
+        },
+        "mod": -4
+      },
+      "wis": {
+        "value": 11,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": 0
+        },
+        "mod": 0
+      },
+      "cha": {
+        "value": 4,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": 0
+        },
+        "mod": -3
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": null,
+        "calc": "default",
+        "formula": null,
+        "min": 0,
+        "value": null
+      },
+      "hp": {
+        "value": 1,
+        "min": 0,
+        "max": 1,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "1d4 - 1"
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": 0,
+        "total": 3,
+        "prof": 0
+      },
+      "movement": {
+        "burrow": 5,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": 20,
+        "units": "ft",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "prof": 2,
+      "spelldc": 8
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"rd__b  rd__b--1\"><p>Snowshoe hares are gentle herbivores that live in burrows throughout Icewind Dale. They have shorter ears than other hares and are acclimated to cold weather.</p></div>",
+        "public": ""
+      },
+      "alignment": "unaligned",
+      "race": "",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": null,
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 0,
+      "spellLevel": 0,
+      "xp": {
+        "value": 10
+      },
+      "source": "IDRotF",
+      "class": {}
+    },
+    "traits": {
+      "size": "tiny",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 1,
+        "ability": "dex",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": 0,
+          "passive": ""
+        }
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell2": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell3": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell4": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell5": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell6": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell7": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell8": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "spell9": {
+        "value": 0,
+        "override": null,
+        "max": 0
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      },
+      "spell0": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 20
+      }
+    }
+  },
+  "token": {
+    "vision": true,
+    "disposition": -1,
+    "displayBars": 40,
+    "flags": {
+      "monks-enhanced-journal": {
+        "chatbubble": ""
+      },
+      "perfect-vision": {
+        "visionRules": "default",
+        "monoVisionColor": "",
+        "sightLimit": null,
+        "light": {}
+      },
+      "core": {
+        "priority": null
+      }
+    },
+    "displayName": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "dimSight": 0,
+    "brightSight": 0,
+    "name": "Hare",
+    "img": "https://assets.forge-vtt.com/6294414eee44137435f45555/assets/srd5e/img/IDRotF/Hare.png",
+    "width": 0.5,
+    "height": 0.5,
+    "scale": 1,
+    "elevation": 0,
+    "rotation": 0,
+    "actorLink": false,
+    "actorData": {},
+    "effects": [],
+    "randomImg": false,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "alpha": 1,
+    "sightAngle": 0,
+    "light": {
+      "alpha": 0.5,
+      "angle": 0,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "gradual": true,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Escape",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<div  class=\"rd__b  rd__b--3\"><p>The hare can take the Dash, Disengage, or Hide action as a bonus action on each of its turns.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "IDRotF",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null
+        },
+        "consume": {
+          "type": null,
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "img": "https://assets.forge-vtt.com/6294414eee44137435f45555/modules/plutonium/media/icon/mighty-force.svg",
+      "flags": {
+        "srd5e": {
+          "page": "monsterTrait",
+          "source": "IDRotF",
+          "hash": "escape_hare_idrotf_idrotf"
+        }
+      },
+      "effects": [],
+      "_id": "ur9wcas9tkj00b4u",
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0
+      }
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "UjfixXuqstXNdypa": 3
+  },
+  "flags": {
+    "srd5e": {
+      "page": "bestiary.html",
+      "source": "IDRotF",
+      "hash": "hare_idrotf"
+    }
+  },
+  "_id": "mmc6BjIgGrnJbtoB"
+}

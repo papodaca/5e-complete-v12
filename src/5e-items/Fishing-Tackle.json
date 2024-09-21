@@ -1,0 +1,36 @@
+{
+  "name": "Fishing Tackle",
+  "type": "loot",
+  "img": "icons/tools/fishing/hook-curved-barbed-steel-white.webp",
+  "data": {
+    "description": {
+      "value": "<p>This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 151",
+    "quantity": 1,
+    "weight": 4,
+    "price": 1,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "damage": {
+      "parts": []
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "4lCdaYwhvK1T68Lv": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.hOzuSDqmOIOx8z3Z"
+    }
+  },
+  "_id": "JdLnX9cq0I4qrZtB"
+}

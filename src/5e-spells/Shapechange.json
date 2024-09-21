@@ -1,0 +1,115 @@
+{
+  "name": "Shapechange",
+  "type": "spell",
+  "img": "icons/creatures/abilities/fang-tooth-venomous.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.world.spells-expanded.N2UEFq8X5LRsLcOZ"
+    }
+  },
+  "_id": "Ug8cu0oe5UDjun5X",
+  "system": {
+    "description": {
+      "value": "<p>You assume the form of a different creature for the Duration. The new form can be of any creature with a Challenge rating equal to your level or lower. The creature cant be a construct or an Undead, and you must have seen the sort of creature at least once. You transform into an average example of that creature, one without any class levels or the Spellcasting trait.</p><p>Your game statistics are replaced by the statistics of the chosen creature, though you retain your Alignment and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus listed in its Statistics is higher than yours, use the creatures bonus in place of yours. You cant use any legendary Actions or Lair Actions of the new form.</p><p>You assume the Hit Points and Hit Dice of the new form. When you revert to your normal form, you return to the number of Hit Points you had before you transformed. If you revert as a result of Dropping to 0 Hit Points, any excess damage carries over to your normal form. As long as the excess damage doesnt reduce your normal form to 0 Hit Points, you arent knocked Unconscious.</p><p>You retain the benefit of any features from your class, race, or other source and can use them, provided that your new form is physically capable of doing so. You cant use any Special Senses you have (for example, darkvision) unless your new form also has that sense. You can only speak if the creature can normally speak.</p><p>When you transform, you choose whether your Equipment falls to the ground, merges into the new form, or is worn by it. Worn equipment functions as normal. The DM determines whether it is practical for the new form to wear a piece of equipment, based on the creatures shape and size. Your equipment doesnt change shape or size to match the new form, and any equipment that the new form cant wear must either fall to the ground or merge into your new form. Equipment that merges has no effect in that state.</p><p>During this spells Duration, you can use your action to assume a different form following the same restrictions and rules for the original form, with one exception: if your new form has more hit points than your current one, your hit points remain at their current value.</p><p><strong>Spell Lists.</strong> Druid, Warlock, Wizard</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": 0,
+      "max": "0",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "util",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": null
+    },
+    "damage": {
+      "parts": [],
+      "versatile": "",
+      "value": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell",
+      "value": ""
+    },
+    "level": 9,
+    "school": "trs",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "A jade circlet worth at least 1,500 gp, which you must place on your head before you cast the spell",
+      "consumed": false,
+      "cost": 1500,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ]
+  },
+  "ownership": {
+    "default": 0,
+    "LCw1mxC8S2Al3dWA": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": null,
+    "modifiedTime": 1664783766456,
+    "lastModifiedBy": "UjfixXuqstXNdypa"
+  }
+}

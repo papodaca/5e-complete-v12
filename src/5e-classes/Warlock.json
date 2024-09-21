@@ -1,0 +1,195 @@
+{
+  "_id": "NcYRtQYoJIeffXHF",
+  "name": "Warlock",
+  "type": "class",
+  "img": "icons/magic/unholy/orb-beam-pink.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.world.classes-expanded.7WJp9vhi6F6SlAFa"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>Multiclass prerequisits: Charisma 13.</em></p><p>As a warlock, you gain the following class features.</p><h3>Hit Points</h3><p><strong>Hit Dice:</strong> 1d8 per warlock level<br /><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier<br /><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per warlock level after 1st</p><h3>Proficiencies</h3><p><strong>Armor:</strong> Light armor<br /><strong>Weapons:</strong> Simple weapons<br /><strong>Tools:</strong> None<br /><strong>Saving Throws:</strong> Wisdom, Charisma<br /><strong>Skills:</strong> Choose two skills from Arcana, Deception, History, Intimidation, Investigation, Nature, and Religion</p><h3>Equipment</h3><p>You start with the following equipment, in addition to the equipment granted by your background:</p><ul><li>(a) a @Compendium[5e-complete.5e-items.0MTCBKU7Yvtg8Mhf]{Light Crossbow} and 20 @Compendium[5e-complete.5e-items.mDRrbkjggqpDJ3xD]{Crossbow Bolts} or (b) @Compendium[5e-complete.5e-journals.SPzXa5i5cD7tZ1b9]{any simple weapon}</li><li>(a) a @Compendium[5e-complete.5e-items.2O54GwvwF34C7UpL]{Component Pouch} or (b) an arcane focus</li><li>(a) a @Compendium[5e-complete.5e-items.6AQo1lkf8cPqdJus]{Scholar's Pack} or (b) a @Compendium[5e-complete.5e-items.pI51kNF0SPoi13po]{Dungeoneer's Pack}</li><li>@Compendium[5e-complete.5e-items.uLEl8peGi41lV5YH]{Leather Armor}, @Compendium[5e-complete.5e-journals.SPzXa5i5cD7tZ1b9]{any simple weapon}, and two @Compendium[5e-complete.5e-items.QrHS8FqbAi0Lsk9J]{Daggers}</li></ul><p>Alternatively, you can roll [[/roll 4d4 * 10]] gp and purchase all of your equipment.</p><section class=\"secret\" id=\"secret-3jtjY0D6Xl6xiyay\"><p><em>Note: The rebalanced roll calculated by </em><a href=\"https://thinkdm.org/2019/12/28/starting-gold/\" target=\"_blank\" rel=\"noopener\"><em>thinkdm.org</em></a><em> matches the canon roll of </em>[[/roll 4d4 * 10]].</p></section><p> </p><h1>Warlock Advancement</h1><table border=\"0\"><thead><tr><td>Level</td><td><p>Proficiency<br />Bonus</p></td><td>Features</td><td><p>Invocations<br />Known</p></td></tr></thead><tbody><tr><td>1st</td><td>+2</td><td><p>@Compendium[5e-complete.5e-class-features.apPfqevYW5APWhXx]{Otherworldly Patron}</p><p>@Compendium[5e-complete.5e-class-features.1Pc4f4mIeuXtf7Ah]{Pact Magic}</p></td><td>—</td></tr><tr><td>2nd</td><td>+2</td><td>@Compendium[5e-complete.5e-class-features.rJlMyXIAB7ZcTLRE]{Eldritch Invocations}</td><td>2</td></tr><tr><td>3rd</td><td>+2</td><td>@Compendium[5e-complete.5e-class-features.MKwqTl6B24sT1OMB]{Pact Boon}</td><td>2</td></tr><tr><td>4th</td><td>+2</td><td><p>@Compendium[5e-complete.5e-class-features.bAyhm1qJWAMu2kl1]{Ability Score Improvement}</p><p>@Compendium[5e-complete.5e-class-features.1t8CKP1kIUyHC7gt]{Eldritch Versatility (Optional)}</p></td><td>2</td></tr><tr><td>5th</td><td>+3</td><td><p>3rd Level Spells</p><p>+1 Invocation</p></td><td>3</td></tr><tr><td>6th</td><td>+3</td><td>Otherworldly Patron feature</td><td>3</td></tr><tr><td>7th</td><td>+3</td><td><p>4th Level Spells</p><p>+1 Invocation</p></td><td>4</td></tr><tr><td>8th</td><td>+3</td><td><p>@Compendium[5e-complete.5e-class-features.bAyhm1qJWAMu2kl1]{Ability Score Improvement}</p><p>@Compendium[5e-complete.5e-class-features.1t8CKP1kIUyHC7gt]{Eldritch Versatility (Optional)}</p></td><td>4</td></tr><tr><td>9th</td><td>+4</td><td><p>5th Level Spells</p><p>+1 Invocation</p></td><td>5</td></tr><tr><td>10th</td><td>+4</td><td>Otherworldly Patron feature</td><td>5</td></tr><tr><td>11th</td><td>+4</td><td>@Compendium[5e-complete.5e-class-features.3D94BbH1WuYPzMCl]{Mystic Arcanum (6th-level)}</td><td>5</td></tr><tr><td>12th</td><td>+4</td><td><p>@Compendium[5e-complete.5e-class-features.bAyhm1qJWAMu2kl1]{Ability Score Improvement}</p><p>@Compendium[5e-complete.5e-class-features.1t8CKP1kIUyHC7gt]{Eldritch Versatility (Optional)}</p><p>+1 Invocation</p></td><td>6</td></tr><tr><td>13th</td><td>+5</td><td>@Compendium[5e-complete.5e-class-features.3D94BbH1WuYPzMCl]{Mystic Arcanum (7th-level)}</td><td>6</td></tr><tr><td>14th</td><td>+5</td><td>Otherworldly Patron feature</td><td>6</td></tr><tr><td>15th</td><td>+5</td><td><p>@Compendium[5e-complete.5e-class-features.3D94BbH1WuYPzMCl]{Mystic Arcanum (8th-level)}</p><p>+1 Invocation</p></td><td>7</td></tr><tr><td>16th</td><td>+5</td><td><p>@Compendium[5e-complete.5e-class-features.bAyhm1qJWAMu2kl1]{Ability Score Improvement}</p><p>@Compendium[5e-complete.5e-class-features.1t8CKP1kIUyHC7gt]{Eldritch Versatility (Optional)}</p></td><td>7</td></tr><tr><td>17th</td><td>+6</td><td>@Compendium[5e-complete.5e-class-features.3D94BbH1WuYPzMCl]{Mystic Arcanum (9th-level)}</td><td>7</td></tr><tr><td>18th</td><td>+6</td><td>+1 Invocation</td><td>8</td></tr><tr><td>19th</td><td>+6</td><td><p>@Compendium[5e-complete.5e-class-features.bAyhm1qJWAMu2kl1]{Ability Score Improvement}</p><p>@Compendium[5e-complete.5e-class-features.1t8CKP1kIUyHC7gt]{Eldritch Versatility (Optional)}</p></td><td>8</td></tr><tr><td>20th</td><td>+6</td><td>@Compendium[5e-complete.5e-class-features.ynH1cG1bbYV9Ipcb]{Eldritch Master}</td><td>8</td></tr></tbody></table><h3>Your Pact Boon</h3><p>Each Pact Boon option produces a special creature or an object that reflects your patron’s nature.</p><p><em><strong>Pact of the Chain. </strong></em>Your familiar is more cunning than a typical familiar. Its default form can be a reflection of your patron, with imps and quasits tied to the Fiend.</p><p><em><strong>Pact of the Blade. </strong></em>If you serve the Fiend, your weapon could be an axe made of black metal and adorned with decorative flames.</p><p><em><strong>Pact of the Talisman.</strong> </em>Your patron bestows a magical talisman upon you that can help you succeed in all your endeavors.</p><p><em><strong>Pact of the Tome. </strong></em>Your Book of Shadows could be a weighty tome bound in demon hide studded with iron, holding spells of conjuration and a wealth of forbidden lore about the sinister regions of the cosmos, a gift of the Fiend.</p><hr /><h1>The Warlock</h1><p>With a pseudodragon curled on his shoulder, a young elf in golden robes smiles warmly, weaving a magical charm into his honeyed words and bending the palace sentinel to his will.</p><p>As flames spring to life in her hands, a wizened human whispers the secret name of her demonic patron, infusing her spell with fiendish magic.</p><p>Shifting his gaze between a battered tome and the odd alignment of the stars overhead, a wild-eyed tiefling chants the mystic ritual that will open a doorway to a distant world.</p><p>Warlocks are seekers of the knowledge that lies hidden in the fabric of the multiverse. Through pacts made with mysterious beings of supernatural power, warlocks unlock magical effects both subtle and spectacular. Drawing on the ancient knowledge of beings such as fey nobles, demons, devils, hags, and alien entities of the Far Realm, warlocks piece together arcane secrets to bolster their own power.</p><h2>Sworn and Beholden</h2><p>A warlock is defined by a pact with an otherworldly being. Sometimes the relationship between warlock and patron is like that of a cleric and a deity, though the beings that serve as patrons for warlocks are not gods. A warlock might lead a cult dedicated to a demon prince, an archdevil, or an utterly alien entity — beings not typically served by clerics. More often, though, the arrangement is similar to that between a master and an apprentice. The warlock learns and grows in power, at the cost of occasional services performed on the patron’s behalf.</p><p>The magic bestowed on a warlock ranges from minor but lasting alterations to the warlock’s being (such as the ability to see in darkness or to read any language) to access to powerful spells. Unlike bookish wizards, warlocks supplement their magic with some facility at hand-to-hand combat. They are comfortable in light armor and know how to use simple weapons.</p><h2>Delvers into Secrets</h2><p>Warlocks are driven by an insatiable need for knowledge and power, which compels them into their pacts and shapes their lives. This thirst drives warlocks into their pacts and shapes their later careers as well.</p><p>Stories of warlocks binding themselves to fiends are widely known. But many warlocks serve patrons that are not fiendish. Sometimes a traveler in the wilds comes to a strangely beautiful tower, meets its fey lord or lady, and stumbles into a pact without being fully aware of it. And sometimes, while poring over tomes of forbidden lore, a brilliant but crazed student’s mind is opened to realities beyond the material world and to the alien beings that dwell in the outer void.</p><p>Once a pact is made, a warlock’s thirst for knowledge and power can’t be slaked with mere study and research. No one makes a pact with such a mighty patron if he or she doesn’t intend to use the power thus gained. Rather, the vast majority of warlocks spend their days in active pursuit of their goals, which typically means some kind of adventuring. Furthermore, the demands of their patrons drive warlocks toward adventure.</p><h3>Multiclassing</h3><p>If your group uses the optional rule on multiclassing in the Player’s Handbook, here’s what you need to know if you choose warlock as one of your classes.</p><p><strong>Ability Score Minimum.</strong> As a multiclass character, you must have at least a Charisma score of 13 to take a level in this class, or to take a level in another class if you are already a warlock.</p><p><strong>Proficiencies Gained.</strong> If warlock isn’t your initial class, here are the proficiencies you gain when you take your first level as a warlock: light armor, simple weapons.</p><p><strong>Spell Slots.</strong> You utilize pact magic. Do not add any warlock levels to the levels of other classes to determine your spellcasting level. Instead, any spell slots gained from your warlock levels are added directly to your spell slots gained from any other spellcasting classes.</p><p>Please refer to the @UUID[Compendium.5e-complete.5e-journals.a5xwmx4d5X1FHEct]{Multiclassing Rules} for additional information on multiclassing.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "identifier": "warlock",
+    "levels": 1,
+    "hitDice": "d8",
+    "hitDiceUsed": 0,
+    "advancement": [
+      {
+        "_id": "awwdyedrr2q28g64",
+        "type": "HitPoints",
+        "configuration": {},
+        "value": {}
+      },
+      {
+        "_id": "jtgxek0gu7hs0sao",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.5e-complete.5e-class-features.rJlMyXIAB7ZcTLRE"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 2,
+        "title": "Warlock Feature",
+        "icon": "",
+        "classRestriction": ""
+      },
+      {
+        "_id": "xo6csuypzad0fh6u",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.5e-complete.5e-class-features.MKwqTl6B24sT1OMB"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 3,
+        "title": "Warlock Feature",
+        "icon": "",
+        "classRestriction": ""
+      },
+      {
+        "_id": "jlssrnufezw4h3qj",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.5e-complete.5e-class-features.bAyhm1qJWAMu2kl1"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 4,
+        "title": "Warlock Feature",
+        "icon": "",
+        "classRestriction": ""
+      },
+      {
+        "_id": "esyuuyb4b68m54b6",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.5e-complete.5e-class-features.3D94BbH1WuYPzMCl"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 11,
+        "title": "Warlock Feature",
+        "icon": "",
+        "classRestriction": ""
+      },
+      {
+        "_id": "idy5vrsebwmsfqps",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.5e-complete.5e-class-features.ynH1cG1bbYV9Ipcb"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 20,
+        "title": "Warlock Feature",
+        "icon": "",
+        "classRestriction": ""
+      },
+      {
+        "_id": "roxim8rlykflhfn3",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.5e-complete.5e-class-features.1Pc4f4mIeuXtf7Ah",
+            "Compendium.5e-complete.5e-class-features.apPfqevYW5APWhXx"
+          ],
+          "optional": false
+        },
+        "value": {},
+        "level": 1,
+        "title": "Warlock Feature",
+        "icon": "",
+        "classRestriction": ""
+      },
+      {
+        "_id": "irtmu07o88nlql5n",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "11": {
+              "value": "6th-level Spell"
+            },
+            "13": {
+              "value": "7th-level Spell"
+            },
+            "15": {
+              "value": "8th-level Spell"
+            },
+            "17": {
+              "value": "9th-level Spell"
+            }
+          }
+        },
+        "value": {},
+        "title": "Mystic Arcanum",
+        "icon": "",
+        "classRestriction": ""
+      }
+    ],
+    "saves": [
+      "wis",
+      "cha"
+    ],
+    "skills": {
+      "number": 2,
+      "choices": [
+        "arc",
+        "dec",
+        "his",
+        "itm",
+        "inv",
+        "nat",
+        "rel"
+      ],
+      "value": []
+    },
+    "spellcasting": {
+      "progression": "pact",
+      "ability": "cha"
+    },
+    "subclass": "",
+    "damage": {
+      "parts": []
+    },
+    "critical": {
+      "threshold": null,
+      "damage": null
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "LCw1mxC8S2Al3dWA": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.286",
+    "createdTime": null,
+    "modifiedTime": 1665523031474,
+    "lastModifiedBy": "9DrM9sBIPMUTBZIH"
+  }
+}

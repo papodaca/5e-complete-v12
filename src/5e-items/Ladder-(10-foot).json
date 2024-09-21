@@ -1,0 +1,36 @@
+{
+  "name": "Ladder (10-foot)",
+  "type": "loot",
+  "img": "icons/commodities/wood/log-stack-maple-brown.webp",
+  "data": {
+    "description": {
+      "value": "<p>A ladder 10-foot long, as sturdy or rickety as the hand that crafted or bodged it together.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB pg. 150",
+    "quantity": 1,
+    "weight": 25,
+    "price": 0.1,
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "common",
+    "identified": true,
+    "damage": {
+      "parts": []
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "4lCdaYwhvK1T68Lv": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dnd5e.items.eQTKbhnpkrtXUfwN"
+    }
+  },
+  "_id": "4QIu39N13usMRvBB"
+}

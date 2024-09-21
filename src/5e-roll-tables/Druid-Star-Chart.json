@@ -1,0 +1,124 @@
+{
+  "_id": "CqNnD2lgkF5njCCn",
+  "name": "Druid Star Chart",
+  "img": "icons/tools/navigation/map-chart-tan.webp",
+  "description": "",
+  "results": [
+    {
+      "_id": "1xfzEmkvTKKa4Rwx",
+      "type": 0,
+      "text": "A scroll covered with depictions of constellations",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "rangeL": 1,
+      "rangeH": 1,
+      "collection": null,
+      "resultId": null
+    },
+    {
+      "_id": "dXQ00sTehxALdt5C",
+      "type": 0,
+      "text": "A stone tablet with fine holes drilled through it",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "rangeL": 2,
+      "rangeH": 2,
+      "collection": null,
+      "resultId": null
+    },
+    {
+      "_id": "Ip7wwOKJShuVSjTZ",
+      "type": 0,
+      "text": "A speckled owlbear hide, tooled with raised marks",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "rangeL": 3,
+      "rangeH": 3,
+      "collection": null,
+      "resultId": null
+    },
+    {
+      "_id": "dXpTvfdHn3zdDyNJ",
+      "type": 0,
+      "text": "A collection of maps bound in an ebony cover",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "rangeL": 4,
+      "rangeH": 4,
+      "collection": null,
+      "resultId": null
+    },
+    {
+      "_id": "1SqdqNRDqXTC86UZ",
+      "type": 0,
+      "text": "A crystal that projects starry patterns when placed before a light",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "rangeL": 5,
+      "rangeH": 5,
+      "collection": null,
+      "resultId": null
+    },
+    {
+      "_id": "w21Hos4x1L6zHmRa",
+      "type": 0,
+      "text": "Glass disks that depict constellations",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "rangeL": 6,
+      "rangeH": 6,
+      "collection": null,
+      "resultId": null
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "EHpONhziSoZpUpN3": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "RollTable.JCkUcEzu6M4mlFIK"
+    }
+  }
+}

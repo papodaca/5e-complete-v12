@@ -1,0 +1,20 @@
+{
+  "name": "Rage",
+  "type": "script",
+  "author": "RoD9QmAeldkRTqNP",
+  "img": "icons/creatures/abilities/mouth-teeth-human.webp",
+  "scope": "global",
+  "command": "game.dnd5e.macros.rollItem(\"Rage\")\n\n// Enable all rage effects\nconst effectNames = [\"Rage\", \"Spirit of the Elk\"];\nconst filter = token.actor.effects.filter(i => effectNames.includes(i.data.label));\nconst updates = filter.map(i => ({_id: i.id, disabled: !i.data.disabled}));\nawait token.actor.updateEmbeddedDocuments(\"ActiveEffect\", updates);\n\n// Wild Surge\nconst surge = actor.items.getName(\"Wild Surge\");\nif(surge.hasMacro()) await surge.executeMacro();\nelse await surge.roll();",
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "RoD9QmAeldkRTqNP": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Macro.sjxXx1F9XqgWITyQ"
+    }
+  },
+  "_id": "AsjuPafHwE0D0jqs"
+}

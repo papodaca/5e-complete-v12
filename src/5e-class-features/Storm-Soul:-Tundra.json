@@ -1,0 +1,155 @@
+{
+  "_id": "WId92oTOs6Q27FQg",
+  "name": "Storm Soul: Tundra",
+  "type": "feat",
+  "img": "icons/magic/water/water-iceberg-bubbles.webp",
+  "data": {
+    "description": {
+      "value": "<p>You gain <strong>resistance </strong>to <strong>cold damage</strong>, and you don’t suffer the effects of extreme cold, as described in the Dungeon Master's Guide. Moreover, as an action, you can touch water and turn a 5-foot cube of it into ice, which melts after 1 minute. This action fails if a creature is in the cube.</p>\n<section class=\"secret\">\n<p><em>Note: Adding this feature automatically adds cold damage resistance.</em></p>\n</section>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "XGE",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 5,
+      "width": null,
+      "units": "ft",
+      "type": "cube"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Path of the Storm Herald 6",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [
+    {
+      "_id": "rnbz4XC13pQ5P3B3",
+      "changes": [
+        {
+          "key": "data.traits.dr.value",
+          "mode": 2,
+          "value": "cold",
+          "priority": "20"
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null
+      },
+      "icon": "icons/magic/water/water-iceberg-bubbles.webp",
+      "label": "Tundra Soul",
+      "origin": "Item.tHEFQvf8BTZfIc1o",
+      "transfer": true,
+      "flags": {
+        "core": {
+          "statusId": ""
+        },
+        "dae": {
+          "stackable": "none",
+          "durationExpression": "",
+          "specialDuration": [],
+          "transfer": true
+        },
+        "dnd5e-helpers": {
+          "rest-effect": "Ignore"
+        }
+      },
+      "tint": null,
+      "selectedKey": "data.traits.dr.value"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "EHpONhziSoZpUpN3": 3
+  },
+  "flags": {
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "betterRolls5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickProperties": {
+        "value": true,
+        "altValue": true
+      },
+      "quickOther": {
+        "value": true,
+        "altValue": true
+      },
+      "quickFlavor": {
+        "value": true,
+        "altValue": true
+      }
+    },
+    "core": {
+      "sourceId": "Item.2NDXz7xhM4SqzFsC"
+    },
+    "mre-dnd5e": {
+      "formulaGroups": [
+        {
+          "label": "Primary",
+          "formulaSet": []
+        }
+      ]
+    }
+  }
+}

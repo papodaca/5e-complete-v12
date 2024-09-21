@@ -1,0 +1,137 @@
+{
+  "_id": "gNl9CKGgDtHm5QOo",
+  "name": "Infusion: Repulsion Shield",
+  "type": "feat",
+  "img": "icons/equipment/shield/heater-crystal-blue.webp",
+  "data": {
+    "description": {
+      "value": "<p><em>Prerequisite: 6th-level artificer</em></p>\n<p><em>Item: A shield (requires attunement)</em></p>\n<p>A creature gains a +1 bonus to Armor Class while wielding this shield.</p>\n<p>The shield has 4 charges. While holding it, the wielder can use a reaction immediately after being hit by a melee attack to expend 1 of the shield's charges and <strong>push the attacker</strong> up to 15 feet away. The shield regains 1d4 expended charges daily at <strong>dawn</strong>.</p>\n<section class=\"secret\">\n<p><em>DM Note: Give this feature to the wearer of this Infusion.</em></p>\n</section>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "TCE",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": "After being hit by a melee attack"
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature"
+    },
+    "range": {
+      "value": 15,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "Artificer 6",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [
+    {
+      "_id": "HmBbbwkE4EJBSmvX",
+      "changes": [
+        {
+          "key": "data.attributes.ac.bonus",
+          "mode": 2,
+          "value": "1",
+          "priority": "20"
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null
+      },
+      "icon": "icons/equipment/shield/heater-crystal-blue.webp",
+      "label": "Repulsion Shield",
+      "origin": "Item.xcfUNgXsUIKhdJj1",
+      "transfer": true,
+      "flags": {
+        "core": {
+          "statusId": ""
+        },
+        "dae": {
+          "stackable": "none",
+          "durationExpression": "",
+          "specialDuration": [],
+          "transfer": true
+        },
+        "dnd5e-helpers": {
+          "rest-effect": "Ignore"
+        }
+      },
+      "tint": "",
+      "selectedKey": "data.attributes.ac.bonus"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "EHpONhziSoZpUpN3": 3
+  },
+  "flags": {
+    "mre-dnd5e": {
+      "formulaGroups": [
+        {
+          "label": "Primary",
+          "formulaSet": []
+        }
+      ]
+    },
+    "magicitems": {
+      "enabled": true,
+      "equipped": true,
+      "attuned": false,
+      "charges": "4",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": true,
+      "recharge": "1d4",
+      "rechargeType": "t1",
+      "rechargeUnit": "r2",
+      "sorting": "l"
+    },
+    "core": {
+      "sourceId": "Item.xcfUNgXsUIKhdJj1"
+    }
+  }
+}

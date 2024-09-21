@@ -1,0 +1,101 @@
+{
+  "name": "Reactive Resistance",
+  "type": "feat",
+  "img": "icons/creatures/reptiles/dragon-winged-blue.webp",
+  "data": {
+    "description": {
+      "value": "<p>When you take acid, cold, fire, lightning, or poison damage, you can use your reaction to give yourself resistance to that instance of damage. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a <strong>long rest</strong>.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "FTD",
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "touch",
+      "type": "object"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 2,
+      "max": "@prof",
+      "per": "lr"
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "permission": {
+    "default": 0,
+    "rB1eq1YiygSNB2xV": 3
+  },
+  "flags": {
+    "mre-dnd5e": {
+      "formulaGroups": [
+        {
+          "label": "Primary",
+          "formulaSet": []
+        }
+      ]
+    },
+    "magicitems": {
+      "enabled": false,
+      "equipped": false,
+      "attuned": false,
+      "charges": "0",
+      "chargeType": "c1",
+      "destroy": false,
+      "destroyFlavorText": "reaches 0 charges: it crumbles into ashes and is destroyed.",
+      "rechargeable": false,
+      "recharge": "0",
+      "rechargeType": "t1",
+      "rechargeUnit": "r1",
+      "sorting": "l"
+    },
+    "core": {
+      "sourceId": "Item.WZR58qMNfT4Xg6ow"
+    }
+  },
+  "_id": "GKz0x2XRKZfONvEx"
+}

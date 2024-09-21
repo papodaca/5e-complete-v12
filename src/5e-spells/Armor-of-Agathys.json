@@ -1,0 +1,178 @@
+{
+  "_id": "g2B1luNF1dvQGWgA",
+  "name": "Armor of Agathys",
+  "type": "spell",
+  "img": "icons/magic/water/ice-snowman.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "betterRolls5e": {
+      "quickDesc": {
+        "value": true,
+        "altValue": true
+      },
+      "quickProperties": {
+        "value": true,
+        "altValue": true
+      },
+      "quickVersatile": {
+        "value": false,
+        "altValue": false
+      },
+      "quickOther": {
+        "value": true,
+        "altValue": true,
+        "context": ""
+      },
+      "quickFlavor": {
+        "value": true,
+        "altValue": true
+      },
+      "quickDamage": {
+        "context": {
+          "0": ""
+        },
+        "value": {
+          "0": true
+        },
+        "altValue": {
+          "0": true
+        }
+      }
+    },
+    "core": {
+      "sourceId": "Item.3zaz3LGaj3BIu0pi"
+    },
+    "mre-dnd5e": {
+      "formulaGroups": [
+        {
+          "label": "Healing",
+          "formulaSet": [
+            0
+          ]
+        },
+        {
+          "label": "Damage",
+          "formulaSet": [
+            1
+          ]
+        }
+      ]
+    },
+    "rest-recovery": {
+      "data": {
+        "recovery": {
+          "enabled": false
+        }
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A protective magical force surrounds you, manifesting as a spectral frost that covers you and your gear. You gain [[/r 5]] temporary hit points for the duration. If a creature hits you with a melee attack while you have these hit points, the creature takes 5 cold damage.</p><h3>At Higher Levels</h3><p>When you cast this spell using a spell slot of 2nd level or higher, both the temporary hit points and the cold damage increase by 5 for each slot.</p><p><strong>Spell Lists.</strong> @UUID[Compendium.5e-complete.5e-journals.7iH4qANs2gxn0MIs.JournalEntryPage.JsbrmCx9VF1Sizn8]{Warlock}</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "PHB",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "hour"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": "",
+      "recovery": ""
+    },
+    "consume": {
+      "type": "",
+      "target": "",
+      "amount": null
+    },
+    "ability": "",
+    "actionType": "heal",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "5",
+          "temphp"
+        ],
+        [
+          "5",
+          "cold"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 1,
+    "school": "abj",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "5"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ]
+  },
+  "ownership": {
+    "default": 0,
+    "1Zm6TZzkdi9vlj8s": 3
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.288",
+    "createdTime": null,
+    "modifiedTime": 1667711821891,
+    "lastModifiedBy": "EHpONhziSoZpUpN3"
+  }
+}
