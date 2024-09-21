@@ -1,7 +1,7 @@
 {
     "id": "5e-complete",
     "title": "5e Complete Compendium",
-    "version": "0.3.13",
+    "version": "0.3.14",
     "authors": [
         {
             "name": "btbias",
@@ -12,12 +12,17 @@
             "name": "hashfastr",
             "url": "https://github.com/Hashfastr",
             "discord": "Hashfastr"
+        },
+        {
+            "name": "papodaca",
+            "url": "https://github.com/papodaca",
+            "discord": "papodaca"
         }
     ],
     "compatibility": {
-            "minimum": "10",
-            "maximum": "12",
-            "verified": "12.327"
+        "minimum": "10",
+        "maximum": "12",
+        "verified": "12.327"
     },
     "styles": [
         "css/styles.css"
@@ -165,8 +170,8 @@
             "package": "5e-complete"
         }
     ],
-    "url": "https://github.com/Hashfastr/5e-complete-v12",
-    "manifest": "https://github.com/Hashfastr/5e-complete-v12/releases/download/v0.3.13/module.json",
-    "download": "https://github.com/Hashfastr/5e-complete-v12/releases/download/v0.3.13/module.zip",
+    "url": "https://github.com/papodaca/5e-complete-v12",
+    "manifest": "https://github.com/papodaca/5e-complete-v12/releases/download/v0.3.14/module.json",
+    "download": "https://github.com/papodaca/5e-complete-v12/releases/download/v0.3.14/module.zip",
     "description": "This module adds classes, subclasses, and other items missing from the D&D 5e SRD"
 }
